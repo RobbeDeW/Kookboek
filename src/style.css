@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: #4caf50;
+  padding: 10px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+p {
+  margin-left: 10px;
+}
+
+h1 {
+  color: #4caf50;
+  margin-left: 10px;
+}
+
+h2 {
+  color: #333;
+  margin-left: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  width: 200px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+form input,
+form textarea,
+form select {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+form div label {
+  margin-right: 5px;
+}
+
+/*# sourceMappingURL=style.css.map */

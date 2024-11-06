@@ -1,0 +1,80 @@
+$PageMargin: 10px;
+$PageColor: #4caf50;
+$Color: white;
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: $Color;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background-color: $PageColor;
+  padding: 10px;
+  a {
+    color: $Color;
+    text-decoration: none;
+    margin: 0 15px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+p{
+  margin-left: $PageMargin;
+}
+
+h1 {
+  color: $PageColor;
+  margin-left: $PageMargin;
+}
+
+h2 {
+  color: #333;
+  margin-left: $PageMargin;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 10px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+button {
+  background-color: $PageColor;
+  color: $Color;
+  border: none;
+  padding: 10px 15px;
+  margin: 10px;
+  width: 200px;
+  cursor: pointer;
+  &:hover {
+    background-color: #45a049;
+  }
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  input,
+  textarea,
+  select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+  }
+  div {
+    label {
+      margin-right: 5px;
+    }
+  }
+}
