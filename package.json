@@ -4,8 +4,8 @@
   "description": "This guide will help you set up a SPA React project with Webpack and Babel from scratch.",
   "main": "index.tsx",
   "scripts": {
-    "start": "webpack serve --mode development",
-    "build": "webpack serve --mode development"
+    "start": "react-scripts start",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
